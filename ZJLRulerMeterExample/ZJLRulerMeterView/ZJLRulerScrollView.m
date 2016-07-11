@@ -25,6 +25,7 @@
         _rulerWidth = frame.size.width;
         _rulerHeight = frame.size.height;
         _scale = scale;
+        [self drawRuler];
     }
     return self;
 }
@@ -54,7 +55,7 @@
     for (int i = 0; i <= _range; i++) {
         UILabel *rule = [[UILabel alloc] init];
         rule.textColor = [UIColor blackColor];
-        rule.text = [NSString stringWithFormat:@"%.0f",i * _scale];
+        rule.text = [NSString stringWithFormat:@"%.1f",i * _scale];
         CGSize textSize = [rule.text sizeWithAttributes:@{ NSFontAttributeName : rule.font }];
         if (i % 10 == 0) {
             CGPathMoveToPoint(pathRef2, NULL, Horizontal_Margin + Line_Distance * i , Vertical_Margin);

@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "ZJLRulerMeterView/ZJLRulerMeterView.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) ZJLRulerMeterView *meterView;
 @end
 
 @implementation ViewController
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.meterView = [[ZJLRulerMeterView alloc] initWithFrame:CGRectMake(20, 20, self.view.frame.size.width-40, 200) range:20 currentValue:0 scale:0.1];
+    [self.view addSubview:self.meterView];
 }
 
 - (void)didReceiveMemoryWarning {
