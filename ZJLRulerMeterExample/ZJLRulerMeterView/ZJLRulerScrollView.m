@@ -51,6 +51,38 @@
     shapeLayer2.lineWidth = 1.f;
     shapeLayer2.lineCap = kCALineCapButt;
     
+    for (int i = 0; i <= _range; i++) {
+        UILabel *rule = [[UILabel alloc] init];
+        rule.textColor = [UIColor blackColor];
+        rule.text = [NSString stringWithFormat:@"%.0f",i * _scale];
+        CGSize textSize = [rule.text sizeWithAttributes:@{ NSFontAttributeName : rule.font }];
+        if (i % 10 == 0) {
+            CGPathMoveToPoint(pathRef2, NULL, Horizontal_Margin + Line_Distance * i , Vertical_Margin);
+            CGPathAddLineToPoint(pathRef2, NULL, Horizontal_Margin + Line_Distance * i, self.rulerHeight - Vertical_Margin - textSize.height);
+            rule.frame = CGRectMake(Horizontal_Margin + Line_Distance * i - textSize.width / 2, self.rulerHeight - Vertical_Margin - textSize.height, 0, 0);
+            [rule sizeToFit];
+            [self addSubview:rule];
+        }
+        else if (i % 5 == 0) {
+            CGPathMoveToPoint(pathRef1, NULL, Horizontal_Margin + Line_Distance * i , Vertical_Margin + 10);
+            CGPathAddLineToPoint(pathRef1, NULL, Horizontal_Margin + Line_Distance * i, self.rulerHeight - Vertical_Margin - textSize.height - 10);
+        }
+        else
+        {
+            CGPathMoveToPoint(pathRef1, NULL, Horizontal_Margin + Line_Distance * i , Vertical_Margin + 20);
+            CGPathAddLineToPoint(pathRef1, NULL, Horizontal_Margin + Line_Distance * i, self.rulerHeight - Vertical_Margin - textSize.height - 20);
+        }
+    }
     
+    shapeLayer1.path = pathRef1;
+    shapeLayer2.path = pathRef2;
+    
+    [self.layer addSublayer:shapeLayer1];
+    [self.layer addSublayer:shapeLayer2];
+    
+    UIEdgeInsets edge = UIEdgeInsetsMake(0, self.rulerWidth / 2.f - Horizontal_Margin, 0, self.rulerWidth / 2.f - Horizontal_Margin);
+    self.contentInset = edge;
+    self.contentOffset = CGPointMake(Line_Distance * (self.rulerValue / _scale) - self.rulerWidth + (self.rulerWidth / 2.f + Horizontal_Margin), 0);
+    self.contentSize = CGSizeMake(_range*Line_Distance+Horizontal_Margin*2, _rulerHeight);
 }
 @end
