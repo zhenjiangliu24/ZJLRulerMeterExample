@@ -16,6 +16,7 @@
 		CA19A96E1D331CE40069994E /* ZJLRulerMeterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A96D1D331CE40069994E /* ZJLRulerMeterExampleTests.m */; };
 		CA19A9791D331CE40069994E /* ZJLRulerMeterExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A9781D331CE40069994E /* ZJLRulerMeterExampleUITests.m */; };
 		CA19A9891D331D230069994E /* ZJLRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A9881D331D230069994E /* ZJLRulerScrollView.m */; };
+		CA19A98F1D3340150069994E /* ZJLRulerMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A98E1D3340150069994E /* ZJLRulerMeterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CA19A97A1D331CE40069994E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA19A9871D331D230069994E /* ZJLRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJLRulerScrollView.h; path = ZJLRulerMeterView/ZJLRulerScrollView.h; sourceTree = "<group>"; };
 		CA19A9881D331D230069994E /* ZJLRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJLRulerScrollView.m; path = ZJLRulerMeterView/ZJLRulerScrollView.m; sourceTree = "<group>"; };
+		CA19A98D1D3340150069994E /* ZJLRulerMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJLRulerMeterView.h; path = ZJLRulerMeterView/ZJLRulerMeterView.h; sourceTree = "<group>"; };
+		CA19A98E1D3340150069994E /* ZJLRulerMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJLRulerMeterView.m; path = ZJLRulerMeterView/ZJLRulerMeterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 			children = (
 				CA19A9871D331D230069994E /* ZJLRulerScrollView.h */,
 				CA19A9881D331D230069994E /* ZJLRulerScrollView.m */,
+				CA19A98D1D3340150069994E /* ZJLRulerMeterView.h */,
+				CA19A98E1D3340150069994E /* ZJLRulerMeterView.m */,
 			);
 			name = ZJLRulerMeterView;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA19A95B1D331CE40069994E /* ViewController.m in Sources */,
+				CA19A98F1D3340150069994E /* ZJLRulerMeterView.m in Sources */,
 				CA19A9581D331CE40069994E /* AppDelegate.m in Sources */,
 				CA19A9551D331CE40069994E /* main.m in Sources */,
 				CA19A9891D331D230069994E /* ZJLRulerScrollView.m in Sources */,
@@ -515,6 +521,7 @@
 				CA19A97F1D331CE40069994E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA19A9801D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +530,7 @@
 				CA19A9821D331CE40069994E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA19A9831D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +539,7 @@
 				CA19A9851D331CE40069994E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
