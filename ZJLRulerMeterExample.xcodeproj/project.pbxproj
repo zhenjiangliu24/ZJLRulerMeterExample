@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA19A9551D331CE40069994E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A9541D331CE40069994E /* main.m */; };
+		CA19A9581D331CE40069994E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A9571D331CE40069994E /* AppDelegate.m */; };
+		CA19A95B1D331CE40069994E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A95A1D331CE40069994E /* ViewController.m */; };
+		CA19A95E1D331CE40069994E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA19A95C1D331CE40069994E /* Main.storyboard */; };
+		CA19A9601D331CE40069994E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA19A95F1D331CE40069994E /* Assets.xcassets */; };
+		CA19A9631D331CE40069994E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA19A9611D331CE40069994E /* LaunchScreen.storyboard */; };
+		CA19A96E1D331CE40069994E /* ZJLRulerMeterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A96D1D331CE40069994E /* ZJLRulerMeterExampleTests.m */; };
+		CA19A9791D331CE40069994E /* ZJLRulerMeterExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A9781D331CE40069994E /* ZJLRulerMeterExampleUITests.m */; };
+		CA19A9891D331D230069994E /* ZJLRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19A9881D331D230069994E /* ZJLRulerScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA19A96A1D331CE40069994E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA19A9481D331CE40069994E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA19A94F1D331CE40069994E;
+			remoteInfo = ZJLRulerMeterExample;
+		};
+		CA19A9751D331CE40069994E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA19A9481D331CE40069994E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA19A94F1D331CE40069994E;
+			remoteInfo = ZJLRulerMeterExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA19A9501D331CE40069994E /* ZJLRulerMeterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLRulerMeterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19A9541D331CE40069994E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA19A9561D331CE40069994E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA19A9571D331CE40069994E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA19A9591D331CE40069994E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA19A95A1D331CE40069994E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA19A95D1D331CE40069994E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA19A95F1D331CE40069994E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA19A9621D331CE40069994E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA19A9641D331CE40069994E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA19A9691D331CE40069994E /* ZJLRulerMeterExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLRulerMeterExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19A96D1D331CE40069994E /* ZJLRulerMeterExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLRulerMeterExampleTests.m; sourceTree = "<group>"; };
+		CA19A96F1D331CE40069994E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA19A9741D331CE40069994E /* ZJLRulerMeterExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLRulerMeterExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19A9781D331CE40069994E /* ZJLRulerMeterExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLRulerMeterExampleUITests.m; sourceTree = "<group>"; };
+		CA19A97A1D331CE40069994E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA19A9871D331D230069994E /* ZJLRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJLRulerScrollView.h; path = ZJLRulerMeterView/ZJLRulerScrollView.h; sourceTree = "<group>"; };
+		CA19A9881D331D230069994E /* ZJLRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJLRulerScrollView.m; path = ZJLRulerMeterView/ZJLRulerScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA19A94D1D331CE40069994E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A9661D331CE40069994E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A9711D331CE40069994E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA19A9471D331CE40069994E = {
+			isa = PBXGroup;
+			children = (
+				CA19A9521D331CE40069994E /* ZJLRulerMeterExample */,
+				CA19A96C1D331CE40069994E /* ZJLRulerMeterExampleTests */,
+				CA19A9771D331CE40069994E /* ZJLRulerMeterExampleUITests */,
+				CA19A9511D331CE40069994E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA19A9511D331CE40069994E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A9501D331CE40069994E /* ZJLRulerMeterExample.app */,
+				CA19A9691D331CE40069994E /* ZJLRulerMeterExampleTests.xctest */,
+				CA19A9741D331CE40069994E /* ZJLRulerMeterExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA19A9521D331CE40069994E /* ZJLRulerMeterExample */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A9861D331CEF0069994E /* ZJLRulerMeterView */,
+				CA19A9561D331CE40069994E /* AppDelegate.h */,
+				CA19A9571D331CE40069994E /* AppDelegate.m */,
+				CA19A9591D331CE40069994E /* ViewController.h */,
+				CA19A95A1D331CE40069994E /* ViewController.m */,
+				CA19A95C1D331CE40069994E /* Main.storyboard */,
+				CA19A95F1D331CE40069994E /* Assets.xcassets */,
+				CA19A9611D331CE40069994E /* LaunchScreen.storyboard */,
+				CA19A9641D331CE40069994E /* Info.plist */,
+				CA19A9531D331CE40069994E /* Supporting Files */,
+			);
+			path = ZJLRulerMeterExample;
+			sourceTree = "<group>";
+		};
+		CA19A9531D331CE40069994E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A9541D331CE40069994E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA19A96C1D331CE40069994E /* ZJLRulerMeterExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A96D1D331CE40069994E /* ZJLRulerMeterExampleTests.m */,
+				CA19A96F1D331CE40069994E /* Info.plist */,
+			);
+			path = ZJLRulerMeterExampleTests;
+			sourceTree = "<group>";
+		};
+		CA19A9771D331CE40069994E /* ZJLRulerMeterExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A9781D331CE40069994E /* ZJLRulerMeterExampleUITests.m */,
+				CA19A97A1D331CE40069994E /* Info.plist */,
+			);
+			path = ZJLRulerMeterExampleUITests;
+			sourceTree = "<group>";
+		};
+		CA19A9861D331CEF0069994E /* ZJLRulerMeterView */ = {
+			isa = PBXGroup;
+			children = (
+				CA19A9871D331D230069994E /* ZJLRulerScrollView.h */,
+				CA19A9881D331D230069994E /* ZJLRulerScrollView.m */,
+			);
+			name = ZJLRulerMeterView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA19A94F1D331CE40069994E /* ZJLRulerMeterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA19A97D1D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExample" */;
+			buildPhases = (
+				CA19A94C1D331CE40069994E /* Sources */,
+				CA19A94D1D331CE40069994E /* Frameworks */,
+				CA19A94E1D331CE40069994E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLRulerMeterExample;
+			productName = ZJLRulerMeterExample;
+			productReference = CA19A9501D331CE40069994E /* ZJLRulerMeterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA19A9681D331CE40069994E /* ZJLRulerMeterExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA19A9801D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExampleTests" */;
+			buildPhases = (
+				CA19A9651D331CE40069994E /* Sources */,
+				CA19A9661D331CE40069994E /* Frameworks */,
+				CA19A9671D331CE40069994E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA19A96B1D331CE40069994E /* PBXTargetDependency */,
+			);
+			name = ZJLRulerMeterExampleTests;
+			productName = ZJLRulerMeterExampleTests;
+			productReference = CA19A9691D331CE40069994E /* ZJLRulerMeterExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA19A9731D331CE40069994E /* ZJLRulerMeterExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA19A9831D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExampleUITests" */;
+			buildPhases = (
+				CA19A9701D331CE40069994E /* Sources */,
+				CA19A9711D331CE40069994E /* Frameworks */,
+				CA19A9721D331CE40069994E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA19A9761D331CE40069994E /* PBXTargetDependency */,
+			);
+			name = ZJLRulerMeterExampleUITests;
+			productName = ZJLRulerMeterExampleUITests;
+			productReference = CA19A9741D331CE40069994E /* ZJLRulerMeterExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA19A9481D331CE40069994E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhongZhongzhong;
+				TargetAttributes = {
+					CA19A94F1D331CE40069994E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+					};
+					CA19A9681D331CE40069994E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CA19A94F1D331CE40069994E;
+					};
+					CA19A9731D331CE40069994E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CA19A94F1D331CE40069994E;
+					};
+				};
+			};
+			buildConfigurationList = CA19A94B1D331CE40069994E /* Build configuration list for PBXProject "ZJLRulerMeterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA19A9471D331CE40069994E;
+			productRefGroup = CA19A9511D331CE40069994E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA19A94F1D331CE40069994E /* ZJLRulerMeterExample */,
+				CA19A9681D331CE40069994E /* ZJLRulerMeterExampleTests */,
+				CA19A9731D331CE40069994E /* ZJLRulerMeterExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA19A94E1D331CE40069994E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A9631D331CE40069994E /* LaunchScreen.storyboard in Resources */,
+				CA19A9601D331CE40069994E /* Assets.xcassets in Resources */,
+				CA19A95E1D331CE40069994E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A9671D331CE40069994E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A9721D331CE40069994E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA19A94C1D331CE40069994E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A95B1D331CE40069994E /* ViewController.m in Sources */,
+				CA19A9581D331CE40069994E /* AppDelegate.m in Sources */,
+				CA19A9551D331CE40069994E /* main.m in Sources */,
+				CA19A9891D331D230069994E /* ZJLRulerScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A9651D331CE40069994E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A96E1D331CE40069994E /* ZJLRulerMeterExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A9701D331CE40069994E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA19A9791D331CE40069994E /* ZJLRulerMeterExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA19A96B1D331CE40069994E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA19A94F1D331CE40069994E /* ZJLRulerMeterExample */;
+			targetProxy = CA19A96A1D331CE40069994E /* PBXContainerItemProxy */;
+		};
+		CA19A9761D331CE40069994E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA19A94F1D331CE40069994E /* ZJLRulerMeterExample */;
+			targetProxy = CA19A9751D331CE40069994E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA19A95C1D331CE40069994E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA19A95D1D331CE40069994E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA19A9611D331CE40069994E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA19A9621D331CE40069994E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA19A97B1D331CE40069994E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA19A97C1D331CE40069994E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA19A97E1D331CE40069994E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLRulerMeterExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLRulerMeterExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA19A97F1D331CE40069994E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLRulerMeterExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLRulerMeterExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA19A9811D331CE40069994E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLRulerMeterExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLRulerMeterExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLRulerMeterExample.app/ZJLRulerMeterExample";
+			};
+			name = Debug;
+		};
+		CA19A9821D331CE40069994E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLRulerMeterExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLRulerMeterExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLRulerMeterExample.app/ZJLRulerMeterExample";
+			};
+			name = Release;
+		};
+		CA19A9841D331CE40069994E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLRulerMeterExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLRulerMeterExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLRulerMeterExample;
+			};
+			name = Debug;
+		};
+		CA19A9851D331CE40069994E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLRulerMeterExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLRulerMeterExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLRulerMeterExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA19A94B1D331CE40069994E /* Build configuration list for PBXProject "ZJLRulerMeterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A97B1D331CE40069994E /* Debug */,
+				CA19A97C1D331CE40069994E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA19A97D1D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A97E1D331CE40069994E /* Debug */,
+				CA19A97F1D331CE40069994E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA19A9801D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A9811D331CE40069994E /* Debug */,
+				CA19A9821D331CE40069994E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA19A9831D331CE40069994E /* Build configuration list for PBXNativeTarget "ZJLRulerMeterExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA19A9841D331CE40069994E /* Debug */,
+				CA19A9851D331CE40069994E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA19A9481D331CE40069994E /* Project object */;
+}
