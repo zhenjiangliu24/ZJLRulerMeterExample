@@ -9,10 +9,7 @@
 #import "ZJLRulerScrollView.h"
 
 @interface ZJLRulerScrollView()
-@property (nonatomic, assign) NSUInteger range;//total length of the rule
-@property (nonatomic, assign) CGFloat scale;//minimal scale in the ruler
-@property (nonatomic, assign) CGFloat rulerWidth;
-@property (nonatomic, assign) CGFloat rulerHeight;
+
 
 @end
 

@@ -14,7 +14,8 @@
 @end
 
 @interface ZJLRulerMeterView : UIView
-@property (nonatomic, weak) id<ZJLRulerMeterViewDelegate> delegate;
+@property (nonatomic, weak) id<ZJLRulerMeterViewDelegate> rulerDelegate;
+@property (nonatomic, assign) CGFloat currentValue;
 
 - (instancetype)initWithFrame:(CGRect)frame range:(NSUInteger)range currentValue:(CGFloat)rulerValue scale:(CGFloat)scale;
 @end
